@@ -5,6 +5,8 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 
+import cl.chilepost.ejemplo_1.vistas.CardViewActivity;
+import cl.chilepost.ejemplo_1.vistas.PicassoActivity;
 import cl.chilepost.ejemplo_1.vistas.RepartoActivity;
 
 public class MainActivity extends AppCompatActivity {
@@ -26,6 +28,13 @@ public class MainActivity extends AppCompatActivity {
         //startActivity(new Intent(this , RepartoActivity.class));
 
     }
-
+    public void get_picasso(View view)
+    {
+        startActivity(new Intent(this, PicassoActivity.class));
+    }
+    public void get_card_view(View view)
+    {
+        startActivity(new Intent(this, CardViewActivity.class));
+    }
 
 }

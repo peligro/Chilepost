@@ -25,12 +25,17 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".MainActivity" />
         </activity>
-        <activity android:name=".vistas.RepartoActivity" android:parentActivityName=".MainActivity">
+        <activity
+            android:name=".vistas.RepartoActivity"
+            android:parentActivityName=".MainActivity">
+
             <!-- soporte para versiones anteriores a Lolypop -->
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".MainActivity" />
         </activity>
+        <activity android:name=".vistas.PicassoActivity" />
+        <activity android:name=".vistas.CardViewActivity"></activity>
     </application>
 
 </manifest>

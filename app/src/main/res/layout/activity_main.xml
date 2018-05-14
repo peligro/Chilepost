@@ -21,6 +21,20 @@
         android:layout_gravity="center"
         android:id="@+id/boton_reparto"
         android:onClick="reparto"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Picasso"
+            android:layout_gravity="center"
+            android:id="@+id/boton_picasso"
+            android:onClick="get_picasso"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Card View"
+            android:layout_gravity="center"
+            android:id="@+id/boton_card_view"
+            android:onClick="get_card_view"/>
 
     </LinearLayout>
 

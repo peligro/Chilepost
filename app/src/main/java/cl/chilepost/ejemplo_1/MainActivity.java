@@ -8,6 +8,7 @@ import android.view.View;
 import cl.chilepost.ejemplo_1.vistas.CardViewActivity;
 import cl.chilepost.ejemplo_1.vistas.PicassoActivity;
 import cl.chilepost.ejemplo_1.vistas.RepartoActivity;
+import cl.chilepost.ejemplo_1.vistas.Volley1Activity;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -36,5 +37,8 @@ public class MainActivity extends AppCompatActivity {
     {
         startActivity(new Intent(this, CardViewActivity.class));
     }
-
+    public void get_volley1(View view)
+    {
+        startActivity(new Intent(this, Volley1Activity.class));
+    }
 }

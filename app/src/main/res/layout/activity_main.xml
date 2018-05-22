@@ -41,6 +41,18 @@
             android:text="Volley 1"
             android:layout_gravity="center"
             android:onClick="get_volley1"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Web View"
+            android:layout_gravity="center"
+            android:onClick="get_webview"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mapa"
+            android:layout_gravity="center"
+            android:onClick="get_mapa"/>
     </LinearLayout>
 
 

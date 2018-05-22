@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "837660169683",
+    "firebase_url": "https://chilepost-3e562.firebaseio.com",
+    "project_id": "chilepost-3e562",
+    "storage_bucket": "chilepost-3e562.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:837660169683:android:43bc0488eee1c1bd",
+        "android_client_info": {
+          "package_name": "cl.chilepost.ejemplo_1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "837660169683-npku9jlh1ckciuiv67cucivo0h0mlct1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAhSrSZOMFUFU6E35cxwKY1eoh-wmmVf5M"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

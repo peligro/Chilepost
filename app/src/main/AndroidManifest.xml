@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="cl.chilepost.ejemplo_1">
+
     <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -36,7 +38,28 @@
         </activity>
         <activity android:name=".vistas.PicassoActivity" />
         <activity android:name=".vistas.CardViewActivity" />
-        <activity android:name=".vistas.Volley1Activity"></activity>
+        <activity android:name=".vistas.Volley1Activity" />
+        <activity android:name=".vistas.WebviewActivity" />
+        <activity android:name=".vistas.MapaActivity" />
+        <!-- firebase -->
+        <service android:name=".firebase.Intancia">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+            </intent-filter>
+        </service>
+        <service android:name=".firebase.Servicios">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+        <!-- /firebase -->
+        <activity android:name=".vistas.PushActivity">
+            <intent-filter>
+                <action android:name="cl.chilepost.ejemplo_1.fcmwithappserver_TARGET_NOTIFICATION" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
     </application>
 
 </manifest>
